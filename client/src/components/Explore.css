@@ -1,0 +1,50 @@
+.blurred {
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  .card-hover {
+    border: none;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #666;
+  }
+  
+  .modal-body ul {
+    padding-left: 20px;
+  }
+  
+  .modal-body li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+  }
+  
+  .modal-header, .modal-footer {
+    background-color: #f8f9fa;
+  }
+  
+  .modal-title {
+    font-weight: 600;
+  }
+  
